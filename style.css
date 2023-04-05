@@ -93,15 +93,19 @@
     font-size: large;
     text-align: center;
 }
+.formheader{
+    color: rgb(216, 131, 131);
+    padding: 15px;
+}
 .form{
-    width: 300px;
+    width: 350px;
     border: 5px dashed red;
     background-color: white;
-    padding: 5px;
     font-size: medium;
     color: rgb(216, 131, 131);
     line-height: 30px;
     text-align: center;
+    padding-bottom: 10px ;
 }
 .menu{
     margin-left: 350px;
