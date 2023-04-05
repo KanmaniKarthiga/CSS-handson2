@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    border: 6px solid greenyellow;
+    border-style: groove;
+    background-image: url(./yellow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.topcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    border: 3px solid red;
+    background-color: black;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    line-height: 20px;
+    font-size: large;
+}
+.left{
+    height: 100px;
+    width: 350px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.mid{
+    height: 60px;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 15px; 
+    margin-left: -340px;  
+}
+.right{
+    height: 100px;
+    width: 350px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: end;
+   
+}
+.midcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    align-items: center;
+}
+.circle{
+    margin-top: 100px;
+    border: 5px solid rgb(99, 96, 96);
+    background-color: lightseagreen;
+    height:350px;
+    width:350px;
+    border-radius: 80%;
+}
+.circletext1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+.circletext2{
+    width: 350px;
+    padding: 10px;
+    margin-left: -5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+.circletext3{
+    padding-bottom: 10px;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+.form{
+    width: 300px;
+    border: 5px dashed red;
+    background-color: white;
+    padding: 5px;
+    font-size: medium;
+    color: rgb(216, 131, 131);
+    line-height: 30px;
+    text-align: center;
+}
+.menu{
+    margin-left: 350px;
+    height: 60px;
+    width: 350px;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px; 
+}
+.bottomcontainer{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-evenly;
+    gap: 5px;
+    
+    
+}
+.new{
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+    border: 2px solid green;
+    background-color: aqua;
+}
+h2{
+    color: rgb(38, 38, 134);
+    text-align: center;
+    padding: 10px;
+}
+ul{
+    font-size: large;
+    padding-top: 10px;
+    color: rgb(38, 38, 134);
+    text-align: center;
+    line-height: 1.3;
+}
+
+.box6{
+    height:280px;
+}
+
+   
