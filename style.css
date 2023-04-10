@@ -1,9 +1,10 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 .container{
-    width: 1000px;
+    width: 100%;
     border: 6px solid greenyellow;
     border-style: groove;
     background-image: url(./yellow.jpg);
@@ -23,13 +24,14 @@
     border-radius: 20px;
     margin: 10px;
     line-height: 20px;
-    font-size: large;
+    font-size: larger;
 }
 .left{
     height: 100px;
     width: 350px;
     padding-top: 10px;
     padding-left: 10px;
+    margin-left: 50px;
     
 }
 .mid{
@@ -38,7 +40,7 @@
     padding: 20px;
     text-align: center;
     margin-top: 15px; 
-    margin-left: -340px;  
+    margin-left: -510px;  
 }
 .right{
     height: 100px;
@@ -46,6 +48,7 @@
     text-align: center;
     line-height: 30px;
     margin-right: end;
+    margin-right: 50px;
    
 }
 .midcontainer{
@@ -93,20 +96,24 @@
     font-size: large;
     text-align: center;
 }
+.formheader{
+    color: rgb(216, 131, 131);
+    padding: 15px;
+}
 .form{
-    width: 300px;
+    width: 350px;
     border: 5px dashed red;
     background-color: white;
-    padding: 5px;
     font-size: medium;
     color: rgb(216, 131, 131);
     line-height: 30px;
     text-align: center;
+    padding-bottom: 10px ;
 }
 .menu{
-    margin-left: 350px;
+    margin-left: 450px;
     height: 60px;
-    width: 350px;
+    width: 400px;
     font-size: 25px;
     text-align: center;
     padding: 15px; 
@@ -117,13 +124,11 @@
     flex-wrap: wrap;  
     justify-content: space-evenly;
     gap: 5px;
-    
-    
 }
 .new{
-    margin: 20px;
+    margin: 40px;
     height: 250px;
-    width: 250px;
+    width: 260px;
     border-radius: 10%;
     border: 2px solid green;
     background-color: aqua;
@@ -136,13 +141,14 @@ h2{
 ul{
     font-size: large;
     padding-top: 10px;
+    margin-left: 50px;
     color: rgb(38, 38, 134);
     text-align: center;
     line-height: 1.3;
 }
 
 .box6{
-    height:280px;
+    height:290px;
 }
 
    
