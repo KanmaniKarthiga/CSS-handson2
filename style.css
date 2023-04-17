@@ -36,14 +36,14 @@
     
 }
 .mid{
-    height: 70px;
-    width: 450px;
-    padding: 20px;
-    text-align: center;
     margin-top: 40px; 
     margin-left: -400px;  
     padding-left: 50px;
     padding-top: 30px;
+    height: 70px;
+    width: 450px;
+    padding: 20px;
+    text-align: center;   
 }
 .right{
     height: 150px;
