@@ -5,7 +5,7 @@
 }
 .container{
     width: 100%;
-    border: 6px solid greenyellow;
+    border: 8px solid greenyellow;
     border-style: groove;
     background-image: url(./yellow.jpg);
     background-repeat: no-repeat;
@@ -16,46 +16,52 @@
     justify-content: space-between;
 }
 .box{
-    border: 3px solid red;
+    border: 5px solid red;
     background-color: black;
     font-style: italic;
     font-weight: bold;
     color: white;
-    border-radius: 20px;
-    margin: 10px;
+    border-radius: 30px;
     line-height: 20px;
-    font-size: larger;
+    font-size: x-large;
 }
 .left{
-    height: 100px;
-    width: 350px;
-    padding-top: 10px;
-    padding-left: 10px;
+    height: 130px;
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 15px;
+    margin-top: 30px;
     margin-left: 50px;
+    line-height: 30px;
     
 }
 .mid{
-    height: 60px;
-    width: 350px;
+    height: 70px;
+    width: 450px;
     padding: 20px;
     text-align: center;
-    margin-top: 15px; 
-    margin-left: -540px;  
+    margin-top: 40px; 
+    margin-left: -400px;  
+    padding-left: 50px;
+    padding-top: 30px;
 }
 .right{
-    height: 100px;
-    width: 350px;
+    height: 150px;
+    width: 400px;
     text-align: center;
-    line-height: 30px;
+    line-height: 35px;
     margin-right: end;
     margin-right: 50px;
+    margin-top: 10px;
+    padding-top: 25px;
    
 }
 .midcontainer{
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: 30px;
     align-items: center;
+    gap: 230px;
 }
 .circle{
     margin-top: 100px;
@@ -64,6 +70,7 @@
     height:350px;
     width:350px;
     border-radius: 80%;
+    margin-left: 50px;
 }
 .circletext1{
     padding-top: 20px;
@@ -100,6 +107,11 @@
     color: rgb(216, 131, 131);
     padding: 15px;
 }
+#heading{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
 .form{
     width: 350px;
     border: 5px dashed red;
@@ -108,12 +120,13 @@
     color: rgb(216, 131, 131);
     line-height: 30px;
     text-align: center;
-    padding-bottom: 10px ;
+    padding-bottom: 20px;
 }
 .menu{
     margin-left: 450px;
+    margin-bottom: 10px;
     height: 60px;
-    width: 400px;
+    width: 450px;
     font-size: 25px;
     text-align: center;
     padding: 15px; 
@@ -123,20 +136,20 @@
     display: flex;
     flex-wrap: wrap;  
     justify-content: space-evenly;
-    gap: 5px;
 }
 .new{
     margin: 40px;
-    height: 250px;
-    width: 260px;
+    height: 300px;
+    width: 350px;
     border-radius: 10%;
-    border: 2px solid green;
+    border: 3px solid green;
     background-color: aqua;
 }
 h2{
     color: rgb(38, 38, 134);
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    font-size: 40px;
 }
 ul{
     font-size: large;
@@ -148,7 +161,7 @@ ul{
 }
 
 .box6{
-    height:290px;
+    height:340px;
 }
 
    
