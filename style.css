@@ -40,10 +40,15 @@
     width: 450px;
     padding: 20px;
     text-align: center;
+<<<<<<< HEAD
     margin-top: 40px; 
     margin-left: -400px;  
     padding-left: 50px;
     padding-top: 30px;
+=======
+    margin-top: 15px; 
+    margin-left: -500px;  
+>>>>>>> e2cae73feced7162b9dd908803aaa74478a4a14f
 }
 .right{
     height: 150px;
